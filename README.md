@@ -130,41 +130,40 @@ First Ollama.
 
 Double click the Ollama Chat Model node
 
-![image](C:\temp\self-host-ai\assets\ollama_chat.png)
+![image](/assets/ollama_chat.png)
 
 In the next window, click the pencil to edit the credentials:
 
-![ollama_chat1.png](C:\temp\self-host-ai\assets\ollama_chat1.png)
+![ollama_chat1.png](/assets/ollama_chat1.png)
 
 Change the Base URL to "http://host.docker.internal:11434"
 
-![ollama_chat2.png](C:\temp\self-host-ai\assets\ollama_chat2.png)
+![ollama_chat2.png](/assets/ollama_chat2.png)
 
 Save and close the window. Click "Back to canvas" in the top left, then double click the Ollama chat node again and confirm the model "llama3.2:latest" is listed. 
 
-![ollama_chat3.png](C:\temp\self-host-ai\assets\ollama_chat3.png)
+![ollama_chat3.png](/assets/ollama_chat3.png)
 
 Next find the "Embeddings Ollama" node
 
-![ollama_chat4.png](C:\temp\self-host-ai\assets\ollama_chat4.png)
+![ollama_chat4.png](/assets/ollama_chat4.png)
 
 Under the model drop down, select "nomic-embed-text:latest"
 
-![ollama_chat5.png](C:\temp\self-host-ai\assets\ollama_chat5.png)
+![ollama_chat5.png](/assets/ollama_chat5.png)
 
 ### PostgreSQL
 
 Locate the "Postgres Chat Memory" node  and double click
 
-![postgre1.png](C:\temp\self-host-ai\assets\postgre1.png)
+![postgre1.png](/assets/postgre1.png)
 
 Click the pencil to edit the credential
 
-![postgre2.png](C:\temp\self-host-ai\assets\postgre2.png)
+![postgre2.png](/assets/postgre2.png)
 
-Change the host to "host.docker.internal" and the password to the password set in the .env file
+Change the host to "host.docker.internal:11434" and the password to the password set in the .env file
 
-![](/assets/postgre3.png)
 
 ### Qdrant Vector Store
 
