@@ -170,7 +170,7 @@ Change the host to "host.docker.internal" and the password to the password set i
 
 Locate the Qdrant Vector Store node and double click.
 
-![qdrant1.png](C:\temp\self-host-ai\assets\qdrant1.png)
+![qdrant1.png](/assets/qdrant1.png)
 
 Click the pencil.
 
