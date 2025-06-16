@@ -164,7 +164,7 @@ Click the pencil to edit the credential
 
 Change the host to "host.docker.internal" and the password to the password set in the .env file
 
-![](C:\Users\BEWALKER\AppData\Roaming\marktext\images\2025-06-16-12-34-40-image.png)
+![](/assets/postgre3.png)
 
 ### Qdrant Vector Store
 
@@ -174,8 +174,8 @@ Locate the Qdrant Vector Store node and double click.
 
 Click the pencil.
 
-![qdrant2.png](C:\temp\self-host-ai\assets\qdrant2.png)
+![qdrant2.png](/assets/qdrant2.png)
 
 Set the API key to the password set in the .env file and the qdrant url to "http://host.docker.internal:6333"
 
-![qdrant3.png](C:\temp\self-host-ai\assets\qdrant3.png)
+![qdrant3.png](/assets/qdrant3.png)
