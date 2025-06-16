@@ -28,6 +28,8 @@ Engineering world, handles large amounts of data safely.
 
 ## Installation
 
+Prior to running, ensure you change the passwords in the .env file
+
 ### Cloning the Repository
 
 ```bash
